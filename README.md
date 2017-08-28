@@ -1,5 +1,8 @@
 # Docker collectd
 
+[![Docker Build
+Statu](https://img.shields.io/docker/build/wmartins/collectd.svg)](https://hub.docker.com/r/wmartins/collectd/)
+
 [`collectd`](https://github.com/collectd/collectd) is a system statistics
 collection daemon. This project focus on providing a simple and easy to use
 Docker image for it.
