@@ -4,7 +4,7 @@ MAINTAINER William Martins <wwwhmartins@gmail.com>
 
 ARG COLLECTD_VERSION=5.7.2
 ARG DOCKER_CONTRIB_REVISION=2c2a8af7bcc3529dabe2a1cb71386f41259fba69
-ARG PREFIX=/opt/collectd/
+ARG PREFIX=/opt/collectd
 
 RUN apk add --no-cache \
     autoconf \
