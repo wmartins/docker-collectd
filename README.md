@@ -2,6 +2,8 @@
 
 [![Docker Build
 Statu](https://img.shields.io/docker/build/wmartins/collectd.svg)](https://hub.docker.com/r/wmartins/collectd/)
+[![Docker
+Pulls](https://img.shields.io/docker/pulls/wmartins/collectd.svg)](https://hub.docker.com/r/wmartins/collectd/)
 
 [`collectd`](https://github.com/collectd/collectd) is a system statistics
 collection daemon. This project focus on providing a simple and easy to use
@@ -10,7 +12,7 @@ Docker image for it.
 ## Running
 
 > This image does **not** require you to run the container with `--privileged`.
-> Instead, it relies on implementation make by the `collectd` contributors (see:
+> Instead, it relies on implementation done by `collectd` contributors (see:
 > https://github.com/collectd/collectd/pull/2041).
 
 ### Starting `collectd`
